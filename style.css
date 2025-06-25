@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #chart {
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    position: relative;
+  }
+  
+  .dot {
+    stroke: black;
+    stroke-width: 1;
+  }
+  
+  #tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 0.9rem;
+  }
+  
+  #legend {
+    margin-top: 20px;
+  }
+
+  footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #66ccff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 600px) {
+    footer p {
+      font-size: 0.8rem;
+      line-height: 1.5;
+    }
+  }
+    
+  
